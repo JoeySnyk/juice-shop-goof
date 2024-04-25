@@ -31,7 +31,7 @@ RUN rm -rf node_modules/libxmljs2/build && \
   npm run build
 
 #FROM gcr.io/distroless/nodejs20-debian11
-FROM gcr.io/distroless/nodejs8-debian11
+FROM gcr.io/distroless/nodejs-debian11
 ARG BUILD_DATE
 ARG VCS_REF
 LABEL org.opencontainers.image.licenses="MIT"
